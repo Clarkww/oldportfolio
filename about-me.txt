@@ -1,0 +1,21 @@
+Hi, my name is Clark Wheeler, and I'm a web developer with a passion for creating beautiful, functional websites and web applications.
+            
+            
+I'm relatively new to web development, but I've already gained experience in HTML, CSS, JavaScript, responsive web design, and React. 
+I love learning new things and exploring different approaches to web development, 
+and I'm excited to continue growing my skills and knowledge.
+            
+           
+            
+In addition to my technical skills, I'm also a creative thinker and problem solver. 
+I enjoy working with clients and users to understand their needs and come up with innovative solutions that meet those needs.
+I believe that good design is about more than just aesthetics
+it's about creating user experiences that are intuitive, accessible, and enjoyable.
+            
+            
+           
+When I'm not coding, you can usually find me exploring the great outdoors or indulging in my love of music and art. 
+I'm a firm believer in the power of creativity and curiosity to inspire new ideas and perspectives, both in life and in web development.
+            
+Thanks for taking the time to check out my portfolio, and I look forward to connecting with you soon!
+            
