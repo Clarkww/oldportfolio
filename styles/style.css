@@ -28,8 +28,8 @@ main {
     flex-wrap: wrap;
 }
 
-.about {
-    background-color: rgb(142, 142, 142);
+.about-section {
+    /* background-color: rgb(142, 142, 142); */
     padding: 1rem;
     margin: 1rem;
     width: 45%;
@@ -39,12 +39,70 @@ main {
     border-radius: 10px;
     
 }
+
+/* about me clickable element */
+
+.about-me {
+    font-size: 5rem;
+    color: rgb(54, 54, 54);
+    margin: 15% 0 15% 0;
+}
+
+.about-me:hover {
+    color: black;
+    font-size: 5.5rem;
+    margin-bottom: 2rem;
+}
+
+.about-me-clicked {
+    color: black;
+    font-size: 5.5rem;
+    margin-bottom: 2rem;
+}
+
+
+/* latest projects clickable element */
+
+.latest-projects {
+    font-size: 5rem;
+    color: rgb(54, 54, 54);
+    margin: 15% 0 15% 0;
+}
+
+.latest-projects:hover {
+    color: black;
+    font-size: 5.5rem;
+    margin-bottom: 2rem;
+}
+
+.latest-projects-clicked {
+    color: black;
+    font-size: 5.5rem;
+    margin-bottom: 2rem;
+}
+
+
+
+.bio-show {
+    /* display: none; */
+    opacity: 0;
+    /* transition: opacity 3s ease-in-out; */
+    transition-delay: 0.5s;
+    height: 0;
+    overflow: hidden;
+    transition: opacity 0.5s ease-in-out, height 0.5s ease-in-out;
+}
+
+.show {
+    /* display: block; */
+    opacity: 1;
+    height: auto;
+    /* transition: opacity 1s ease-in-out; */
+  }
+
 .img-container {
     width: 100%;
     margin-top: 0;
-    /* object-fit: cover; */
-    
-    /* height: 10vw; */
 }
 
 .main-img {
@@ -59,7 +117,6 @@ main {
 img {
     width: 100%;
     height: 170px;
-    /* object-fit: cover; */
     border-radius: 10px;
 }
 
@@ -79,7 +136,6 @@ img {
     flex: 1;
     flex-basis: 100%;
     text-align: center;
-    
 }
 
 
@@ -88,9 +144,24 @@ img {
     background-color: rgb(151, 150, 150);
     border: 1px solid black;
     padding: 10px;
-
     border-radius: 5px;
     box-shadow: 2px 2px 5px black;
+
+
+}
+
+.card-display {
+    opacity: 0;
+    transition-delay: 1s;
+    height: 0;
+    overflow: hidden;
+    transition: opacity 1s ease-in-out, height 1s ease;
+    /* display: inherit; */
+}
+
+.card-show {
+    opacity: 1;
+    height: auto;
 }
 
 .card img {
@@ -101,11 +172,26 @@ img {
 }
 
 footer {
-    margin-top: 30px;
+    margin-top: 30%;
     background-color: #222;
     border-color: #080808;
     border: 1px solid transparent;
     color: #9d9d9d;
     opacity: 80%;
     text-align: center;
+    flex-shrink: 0;
+    display: flex;
+    flex-wrap: wrap;
+}
+h4 {
+    flex-basis: 100%;
+}
+
+.footer-list {
+    flex: 1 0 100%;
+    justify-self: center;
+}
+
+.footer-list a {
+    margin: 0 7px 0 7px;
 }
