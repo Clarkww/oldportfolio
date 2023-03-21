@@ -1,6 +1,6 @@
 
 body {
-    background-color: rgb(83, 83, 83);
+    background-color: rgba(83, 83, 83, 0.947);
     color: black;
     padding: 0;
     margin: 0;
@@ -45,7 +45,7 @@ main {
 .about-me {
     font-size: 5rem;
     color: rgb(54, 54, 54);
-    margin: 15% 0 15% 0;
+    margin: 10rem 0 5% 0;
 }
 
 .about-me:hover {
@@ -172,7 +172,7 @@ img {
 }
 
 footer {
-    margin-top: 30%;
+    /* margin-top: 30%; */
     background-color: #222;
     border-color: #080808;
     border: 1px solid transparent;
@@ -182,6 +182,14 @@ footer {
     flex-shrink: 0;
     display: flex;
     flex-wrap: wrap;
+
+
+
+
+
+
+
+
 }
 h4 {
     flex-basis: 100%;
@@ -195,3 +203,16 @@ h4 {
 .footer-list a {
     margin: 0 7px 0 7px;
 }
+
+@media screen and (max-width: 413px) {
+
+    #nav li a {
+        /* color: green; */
+        font-size: 12px;
+    }
+
+    #brand {
+        font-size: 16px;
+    }
+}
+

@@ -62,6 +62,8 @@ function clickPro(){
         cardThree.classList.add("card-show")
         latestProjectsClicked.classList.add('latest-projects-clicked')
         togglePro = true
+
+
     } else if (togglePro === true){
         cardOne.classList.remove("card-show")
         cardTwo.classList.remove("card-show")
