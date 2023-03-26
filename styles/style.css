@@ -26,6 +26,8 @@ ul li{
 main {
     display: flex;
     flex-wrap: wrap;
+    min-height: 83vh;
+    max-height: 100vh;
 }
 
 .about-section {
@@ -100,18 +102,8 @@ main {
     /* transition: opacity 1s ease-in-out; */
   }
 
-.img-container {
-    width: 100%;
-    margin-top: 0;
-}
 
-.main-img {
-    width: 100%;
-    height: auto;
-    margin-top: 0;
-    filter: brightness(20%);
-    filter: grayscale(100%);
-}
+
 
 
 img {
@@ -185,12 +177,13 @@ footer {
 
 
 
-
+/* make footer stay t bottom of page */
 
 
 
 
 }
+
 h4 {
     flex-basis: 100%;
 }
